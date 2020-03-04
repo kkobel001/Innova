@@ -1,0 +1,24 @@
+body
+{
+	background-color: white;
+	color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.nav-item a:active 
+{
+    background-color: purple;
+}
+
+.navbar-brand
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-nav
+{
+    text-transform: uppercase;
+    
+}
+
