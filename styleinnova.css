@@ -8,7 +8,12 @@ body
 
 .nav-item a:active 
 {
-    background-color: purple;
+    color: purple;
+}
+.nav-item a:hover
+{
+
+    color: purple;
 }
 
 .navbar-brand
@@ -43,13 +48,20 @@ body
    
 }
 
+@media(min-width:785px){
 
+    .navbar-nav{
+        float: right!important;
+    }
+
+}
 @media  (max-width:990px){
 
-    .navbar
+    /* .navbar
     {
         background-color: black;
-    }
+    } */
+
     
     
    
@@ -360,11 +372,12 @@ h3{
 .ul-footer> li{
 
     padding:5px;
+    text-decoration: underline;
 }
 
 .ul-footer> li:hover{
 
-    text-decoration: none;
+font-weight: bold;
     color: blueviolet;
 }
 
@@ -372,4 +385,31 @@ h3{
 {
 
   text-align:center;
+}
+
+.ico i{
+
+    text-align: center;
+    display: inline-block;
+    width:40px;
+    height:40px;
+    background-color: white;
+    margin:10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    font-size: 20px;
+    /* position: relative; */
+}
+
+.ico i:hover{
+    box-shadow: 10px 15px 25px -10px #00000070;
+    color:purple;
+    text-decoration: none;
+
+
+}
+
+
   

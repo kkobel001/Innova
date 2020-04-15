@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compstible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -24,16 +24,16 @@
      <div class="big-banner">
             
         <header>
-        <nav class="navbar navbar-expand-lg navbar-light text-white">
+        <nav class="navbar navbar-expand-md  ">
 
-            <a class="navbar-brand ml-3 p-2" alt="brand" href="#">Innova</a>
+            <a class="navbar-brand ml-3" alt="brand" href="#">Innova</a>
 
-            <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#mainmenu"
-                aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainmenu"
+                aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="mainmenu">
-                <ul class="navbar-nav ml-auto ">
+            <div class="collapse navbar-collapse justify-content-end mt-4" id="mainmenu">
+                <ul class="navbar-nav  ">
 
                     <li class="nav-item active mr-4 ">
                         <a class="nav-link" href="#">home</a>
@@ -57,27 +57,27 @@
         
         <article>
 
-            <div class="conteiner-1">
+            <div class="conteiner">
 
-                <div class="row  ">
-                        <div class="col-sm-3 p-5 text-center">
+                <div class="row ">
+                        <div class="col-lg-3 p-5 text-center">
                                 
                                  <span class="fas fa-paper-plane  mb-4 text-info fa-3x "></span>
                                 <h3>Email Design</h3>
                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
     
                         </div>
-                         <div class="col-sm-3 p-5 text-center">
+                         <div class="col-lg-3 p-5  text-center">
                                 <span class="fas fa-desktop mb-4 text-info fa-3x" data-aos-delay="300"></span>
                                 <h3>Web Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
                          </div>
-                        <div class="col-sm-3 p-5 text-center">
+                        <div class="col-lg-3 p-5  text-center">
                                 <span class="	fas fa-mobile-alt mb-4 text-info fa-3x"></span>
                                 <h3>Mobile Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
                         </div>
-                        <div class="col-sm-3 p-5 text-center">
+                        <div class="col-lg-3 p-5  text-center">
                                 <span class="far fa-comment mb-4 text-info fa-3x"></span>
                                 <h3>Research</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
           </section>
-          <section class="bg-primary py-5">
+          <section class="bg-primary py-3">
               <div class="row justyfy-content-center">
 
                 <div class="col-lg-12 text-center">
@@ -276,27 +276,48 @@
  <footer class="side-footer bg-light">
         <div class="side-footer-conteiner py-5 mb-4">
              
-                <div class="col-md-4 p-3">
-                    <h3 class=" mb-5">About us</h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet 
+                <div class="col-sm-4 p-3 ">
+                    <h3 class=" mb-5 font-weight-bold ">About us</h3>
+                    <p class="text-left">Lorem ipsum dolor sit amet 
                          consectetur, adipisicing elit. Alias nihil numquam 
                          aspernatur inventore sint eligendi nostrum!</p>
 
                 </div>
-                <div class="col-md-3" >
-                        <h3 class="mb-5"> Navigation</h3>
-                        <ul class="ul-footer">
-                            <li> <a href="#"> About</a> </li>
-                            <li> <a href="#"> About</a></li>
-                            <li><a href="#"> About</a></li>
-                            <li><a href="#"> About</a></li>
+                <div class="col-sm-3 text-center" >
+                        <h3 class="mb-5 font-weight-bold "> Navigation</h3>
+                        <ul class="ul-footer pl-0 text-dark">
+                            <li class="mb-3 "> <a class="text-dark" href="#"> About</a> </li>
+                            <li class="mb-3"> <a class="text-dark" href="#">Services</a></li>
+                            <li class="mb-3"><a  class="text-dark"href="#"> Portfolio</a></li>
+                            <li class="mb-3"><a  class="text-dark" href="#"> Contact</a></li>
                         </ul>
                 </div>
-                <div class="col-md-3">.col-sm-8</div> 
+                <div class="col-sm-3 font-weight-bold text-center mt-4 ">
+
+                           
+                                        <a class="ico " href="#">
+                                            <i class=" pt-3 fab fa-facebook "></i>
+                                        </a>
+                                    
+                                        <a class="ico" href="#">
+                                            <i class=" pt-3 fab fa-twitter  "></i>
+                                        </a>
+                                    
+                                        <a class="ico" href="#">
+                                            <i class=" pt-3 fab fa-google   "></i>
+                                        </a>
+                                    
+                                        <a class="ico" href="#">
+                                            <i class=" pt-3 fab fa-instagram  "></i>
+                                        </a>
+                               
+                        
+
+                </div> 
             
         </div>
-        <div class="footer-copyright"> Copyright &copy; All right reserved  |  This is made with   
-             <i class="fas fa-heart text-danger" aria-hidden="true"></i> by<a href ="#" target="_blank">
+        <div class="footer-copyright mt-5 pt-4"> Copyright &copy; All right reserved  |  This is made with   
+             <span class="fas fa-heart text-danger" aria-hidden="true"></span> by <a href="#" data-toggle="tooltip" data-placement="right" target="_blank" title="Kliknij tutaj!">
                 Colorlib</a> </div> 
 
     </footer>
