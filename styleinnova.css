@@ -218,14 +218,13 @@ body
 {
     
     width:30%;
-    margin-left: ;
+    /* margin-left: ; */
 
 }
 
 .carousel-indicators{
     position:relative;
     text-align: center;
-    position: relative;
     width: 100%;
     bottom: -1px!important;
     
